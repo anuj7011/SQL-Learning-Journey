@@ -1,11 +1,29 @@
 # BETWEEN Operator
 
 ## 📖 Description
-The BETWEEN operator is used to filter values within a specified range.
+Used to filter values within a given range.
 
 ## 📚 Concepts Covered
-- Numeric Range
-- NOT BETWEEN
+- Number range
+- Date range
+
+## 📝 Syntax
+
+SELECT *
+FROM employees
+WHERE salary BETWEEN 30000 AND 60000;
+
+## 💻 Example Query
+
+SELECT name,salary
+FROM employees
+WHERE salary BETWEEN 40000 AND 50000;
+
+## 📊 Expected Output
+
+| name | salary |
+|------|--------|
+| Anuj | 45000 |
 
 ## 🎯 Learning Outcome
-Learned how to retrieve records that fall within a specific range.
+Learned how to retrieve records within a specified range.
