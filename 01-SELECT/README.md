@@ -8,5 +8,22 @@ The SELECT statement is used to retrieve data from one or more columns of a tabl
 - Select specific columns
 - Retrieve required data
 
+## 📝 Syntax
+
+SELECT column_name
+FROM employees;
+
+## 💻 Example Query
+
+SELECT name, salary
+FROM employees;
+
+## 📊 Expected Output
+
+| name | salary |
+|------|--------|
+| Anuj | 45000 |
+| Ravi | 52000 |
+
 ## 🎯 Learning Outcome
-After completing this topic, I learned how to retrieve data efficiently from a database table using SQL SELECT queries.
+Learned how to retrieve data from a database table using the SELECT statement.
