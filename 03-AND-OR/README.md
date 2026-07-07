@@ -1,12 +1,33 @@
-# AND & OR Operators
+# AND / OR Operators
 
 ## 📖 Description
-AND and OR are logical operators used to combine multiple conditions in SQL queries.
+Used to combine multiple conditions in SQL queries.
 
 ## 📚 Concepts Covered
-- AND Operator
-- OR Operator
-- Multiple Conditions
+- AND operator
+- OR operator
+- Multiple conditions
+
+## 📝 Syntax
+
+SELECT *
+FROM employees
+WHERE department='IT'
+AND salary>50000;
+
+## 💻 Example Query
+
+SELECT *
+FROM employees
+WHERE city='Delhi'
+OR city='Noida';
+
+## 📊 Expected Output
+
+| name | city |
+|------|------|
+| Anuj | Delhi |
+| Ravi | Noida |
 
 ## 🎯 Learning Outcome
-Learned how to retrieve data using multiple logical conditions.
+Learned how to combine multiple conditions using AND and OR.
