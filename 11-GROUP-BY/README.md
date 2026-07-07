@@ -1,12 +1,30 @@
 # GROUP BY Clause
 
 ## 📖 Description
-The GROUP BY clause groups rows that have the same values and is commonly used with aggregate functions.
+Used to group rows based on a column.
 
 ## 📚 Concepts Covered
-- COUNT with GROUP BY
-- AVG with GROUP BY
-- MAX with GROUP BY
+- Grouping
+- Aggregate functions
+
+## 📝 Syntax
+
+SELECT department, COUNT(*)
+FROM employees
+GROUP BY department;
+
+## 💻 Example Query
+
+SELECT city, AVG(salary)
+FROM employees
+GROUP BY city;
+
+## 📊 Expected Output
+
+| city | AVG(salary) |
+|------|-------------|
+| Delhi | 45000 |
+| Noida | 52000 |
 
 ## 🎯 Learning Outcome
-Learned how to perform category-wise analysis using grouped data.
+Learned how to group records and perform aggregate calculations.
