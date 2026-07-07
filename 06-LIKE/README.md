@@ -1,13 +1,30 @@
 # LIKE Operator
 
 ## 📖 Description
-The LIKE operator is used for pattern matching in text data.
+Used to search for patterns in text.
 
 ## 📚 Concepts Covered
-- Starts With
-- Ends With
-- Contains
-- Wildcards
+- %
+- _
+- Pattern matching
+
+## 📝 Syntax
+
+SELECT *
+FROM employees
+WHERE name LIKE 'A%';
+
+## 💻 Example Query
+
+SELECT *
+FROM employees
+WHERE city LIKE '%hi';
+
+## 📊 Expected Output
+
+| name | city |
+|------|------|
+| Anuj | Delhi |
 
 ## 🎯 Learning Outcome
-Learned how to search text values using pattern matching.
+Learned how to search text using wildcard characters.
