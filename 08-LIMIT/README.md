@@ -1,11 +1,31 @@
 # LIMIT Clause
 
 ## 📖 Description
-The LIMIT clause is used to restrict the number of rows returned by a query.
+Used to restrict the number of rows returned.
 
 ## 📚 Concepts Covered
-- Top Records
-- Limited Output
+- Top records
+- Row limiting
+
+## 📝 Syntax
+
+SELECT *
+FROM employees
+LIMIT 5;
+
+## 💻 Example Query
+
+SELECT *
+FROM employees
+LIMIT 3;
+
+## 📊 Expected Output
+
+| emp_id | name |
+|--------|------|
+| 1 | Anuj |
+| 2 | Ravi |
+| 3 | Mohit |
 
 ## 🎯 Learning Outcome
-Learned how to retrieve only the required number of records.
+Learned how to limit query results.
