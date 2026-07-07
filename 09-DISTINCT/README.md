@@ -1,11 +1,28 @@
 # DISTINCT Keyword
 
 ## 📖 Description
-DISTINCT removes duplicate values and returns only unique records.
+Used to remove duplicate values.
 
 ## 📚 Concepts Covered
-- Unique Values
-- Duplicate Removal
+- Unique values
+
+## 📝 Syntax
+
+SELECT DISTINCT city
+FROM employees;
+
+## 💻 Example Query
+
+SELECT DISTINCT department
+FROM employees;
+
+## 📊 Expected Output
+
+| department |
+|------------|
+| IT |
+| HR |
+| Sales |
 
 ## 🎯 Learning Outcome
-Learned how to retrieve unique records from a table.
+Learned how to retrieve unique records.
