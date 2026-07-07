@@ -1,7 +1,9 @@
-# SQL-Learning-Journey
-# SQL Practice Repository
 
-This repository contains my SQL learning journey while preparing for Data Analytics.
+# SQL Learning Journey 🚀
+
+Welcome to my SQL Learning Journey!
+
+This repository documents my daily SQL practice as I prepare for Data Analyst roles.
 
 ## Topics Covered
 
@@ -13,9 +15,13 @@ This repository contains my SQL learning journey while preparing for Data Analyt
 - LIKE
 - ORDER BY
 - LIMIT
+- DISTINCT
 - Aggregate Functions
 - GROUP BY
-- DISTINCT
+
+## Tools
+
+- MySQL
 
 ## Dataset
 
@@ -23,4 +29,8 @@ Employee Dataset
 
 ## Goal
 
-To become interview-ready in SQL for Data Analyst roles by solving practical SQL problems every day.
+Become interview-ready in SQL for Data Analytics.
+
+⭐ Daily SQL Practice
+⭐ Interview Questions
+⭐ Real-world Examples
