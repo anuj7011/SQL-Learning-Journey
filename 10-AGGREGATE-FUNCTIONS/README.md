@@ -1,7 +1,7 @@
 # Aggregate Functions
 
 ## 📖 Description
-Aggregate functions perform calculations on multiple rows and return a single summarized value.
+Aggregate functions perform calculations on multiple rows.
 
 ## 📚 Concepts Covered
 - COUNT()
@@ -10,5 +10,21 @@ Aggregate functions perform calculations on multiple rows and return a single su
 - MAX()
 - MIN()
 
+## 📝 Syntax
+
+SELECT AVG(salary)
+FROM employees;
+
+## 💻 Example Query
+
+SELECT COUNT(*)
+FROM employees;
+
+## 📊 Expected Output
+
+| COUNT(*) |
+|----------|
+| 10 |
+
 ## 🎯 Learning Outcome
-Learned how to summarize and analyze data using aggregate functions.
+Learned how to summarize data using aggregate functions.
