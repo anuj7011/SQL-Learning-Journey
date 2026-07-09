@@ -23,6 +23,7 @@ This repository documents my daily SQL practice as I prepare for Data Analyst ro
 ## Tools
 
 - MySQL
+- PostgreSQL
 
 ## Dataset
 
