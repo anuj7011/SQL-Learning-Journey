@@ -16,7 +16,7 @@ This repository documents my daily SQL practice as I prepare for Data Analyst ro
 - ORDER BY
 - LIMIT
 - DISTINCT
-- Aggregate Functions
+- AGGREGATE FUNCTIONS
 - GROUP BY
 - ALTER TABLE
 - DATA TYPES
