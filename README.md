@@ -20,6 +20,7 @@ This repository documents my daily SQL practice as I prepare for Data Analyst ro
 - GROUP BY
 - ALTER TABLE
 - DATA TYPES
+- CONSTRAINTS
 
 ## Tools
 
